@@ -1,0 +1,48 @@
+.allVideosWrapper {
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+.container {
+	max-width: 1200px;
+}
+
+.video-title-wrapper {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.singleVideoWrapper {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s ease-in-out;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.singleVideoWrapper:hover {
+	transform: scale(1.05);
+}
+
+.videoThumbnail img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.videoTitle a,
+.videoDesc {
+	color: #333;
+	text-decoration: none;
+}
+
+.videoTitle a:hover {
+	color: #007bff;
+}
+
+.videoThumbnail {
+	object-fit: contain;
+}
